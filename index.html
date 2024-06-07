@@ -7,16 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="container">
-        <h1>Black</h1>
-    <p id="message-el">Want to play a round?</p>
-    <p id="cards-el">Cards:</p>
-    <p id="sum-el">Sum:</p>
-    <button id="start-el" onclick="startGame()">START GAME</button>
-    
-    <button id="newCard" onclick="newCard()">NEW CARD</button>
-    
+   
+    <div id = app>
+        <div class="app">
+            <h1>BlackJack</h1>
+         <p id="message-el">Want to play a round?</p>
+         <p id="card-el">Cards:</p>
+         <p id="sum-el">Sum:</p>
+         <button onclick="startGame()">START GAME</button>
+         <br>
+         <button onclick="newCard()">NEW CARD</button>
+         <p id="player-el"></p>
+         </div>
+         
     </div>
+    <p id="greeting-el"></p>
+
 </body>
 <script src="index.js"></script>
 </html>
